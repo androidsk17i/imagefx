@@ -7,7 +7,15 @@ const photoElements = {
         'fine art photography', 'candid photography', 'environmental portrait',
         'black and white photography', 'high fashion photography', 'commercial photography',
         'natural light photography', 'studio portrait', 'glamour photography',
-        'conceptual photography'
+        'conceptual photography',
+        // 20 more options
+        'beauty photography', 'cinematic portrait', 'architectural photography',
+        'minimalist portrait', 'silhouette portrait', 'close-up portrait',
+        'vintage style portrait', 'surreal portrait', 'golden hour portrait',
+        'film noir style', 'double exposure portrait', 'infrared photography',
+        'tonal portrait', 'contour photography', 'urban portrait', 
+        'underwater photography', 'drone photography', 'lens flare photography',
+        'pop art style', 'color splash technique'
     ],
     
     settings: [
@@ -17,7 +25,13 @@ const photoElements = {
         'luxury indoor space', 'industrial warehouse', 'historic architecture',
         'minimalist white room', 'abandoned building', 'rooftop with city skyline',
         'natural forest', 'desert landscape', 'cozy cafe interior',
-        'elegant hotel lobby', 'vintage train station'
+        'elegant hotel lobby', 'vintage train station',
+        // 20 more options
+        'misty lake', 'medieval castle', 'futuristic cityscape', 'dimly lit bar',
+        'art gallery', 'neon-lit street', 'ancient ruins', 'botanical garden',
+        'subway station', 'victorian mansion', 'coastal cliffs', 'japanese zen garden',
+        'tropical rainforest', 'retro diner', 'cobblestone alley', 'grand theater',
+        'luxury yacht', 'private jet interior', 'artist loft', 'winter wonderland scene'
     ],
     
     lighting: [
@@ -26,14 +40,25 @@ const photoElements = {
         'studio three-point lighting', 'moody directional lighting', 'split lighting',
         'butterfly lighting', 'blue hour twilight', 'harsh midday sun',
         'dramatic chiaroscuro', 'diffused window light', 'neon accent lighting',
-        'silhouette backlighting', 'soft box lighting', 'subtle gradient lighting'
+        'silhouette backlighting', 'soft box lighting', 'subtle gradient lighting',
+        // 20 more options
+        'clamshell lighting', 'broad lighting', 'short lighting', 'rembrandt lighting',
+        'loop lighting', 'paramount lighting', 'cross lighting', 'ambient fill light', 
+        'subtractive lighting', 'dramatic film noir lighting', 'mixed color temperature',
+        'practical lighting', 'key light only', 'bounce lighting', 'ring light effect',
+        'spotlighting', 'fresnel lighting', 'northern light', 'candlelight ambience',
+        'hard directional lighting'
     ],
     
     atmospheres: [
         'joyful', 'serene', 'dramatic', 'mysterious', 'vibrant', 'energetic', 
         'relaxed', 'intimate', 'powerful', 'nostalgic', 'melancholic', 'ethereal',
         'majestic', 'contemplative', 'playful', 'sophisticated', 'inspiring',
-        'dreamy', 'intense'
+        'dreamy', 'intense',
+        // 20 more options
+        'somber', 'whimsical', 'tranquil', 'suspenseful', 'exotic', 'adventurous',
+        'mystical', 'tender', 'crisp', 'warm', 'cool', 'romantic', 'dynamic',
+        'elegant', 'raw', 'moody', 'enchanting', 'bold', 'surreal', 'idyllic'
     ],
     
     cameras: [
@@ -41,7 +66,13 @@ const photoElements = {
         'Leica Q2', 'Hasselblad X1D II', 'Sony Alpha a9 II', 'Canon EOS-1D X Mark III',
         'Hasselblad X2D 100C', 'Canon EOS 5D Mark IV', 'Sony A1', 'Nikon D850',
         'Fujifilm X-T5', 'Panasonic Lumix S1R', 'Leica M11', 'Phase One XT',
-        'Pentax K-1 Mark II', 'Olympus OM-1'
+        'Pentax K-1 Mark II', 'Olympus OM-1',
+        // 20 more options
+        'Sony Alpha a7S III', 'Canon EOS R3', 'Nikon Z9', 'Fujifilm GFX 50S II',
+        'Leica SL2', 'Hasselblad 907X', 'Ricoh GR III', 'Canon EOS R6 Mark II',
+        'Sony Alpha a6600', 'Nikon Z6 II', 'Fujifilm X-Pro3', 'Panasonic Lumix GH6',
+        'Leica M10-R', 'Phase One IQ4', 'Pentax 645Z', 'Olympus E-M1X',
+        'DJI Hasselblad X2D', 'Sigma fp L', 'RED Komodo', 'Blackmagic Pocket Cinema Camera 6K'
     ],
     
     lenses: [
@@ -49,7 +80,13 @@ const photoElements = {
         '24-70mm f/2.8', '135mm f/2', '28mm f/2', '135mm f/1.8',
         '105mm macro lens', '16-35mm wide angle', '100-400mm zoom', '58mm f/1.4',
         '24mm f/1.4', '90mm tilt-shift', '200mm f/2.0', '40mm pancake lens',
-        '14mm ultra-wide'
+        '14mm ultra-wide',
+        // 20 more options
+        '300mm f/2.8', '85mm f/1.2', '35mm f/1.4', '24-105mm f/4', '18-55mm kit lens',
+        '600mm super telephoto', '45mm tilt-shift', '8mm fisheye', '70-300mm variable aperture',
+        '120mm macro f/4', '50mm f/0.95', '17-40mm ultra-wide zoom', '100mm f/2.8',
+        '400mm f/4', '20mm f/1.8', '180mm f/3.5 macro', '65mm f/2 medium format',
+        '150-600mm super zoom', '56mm f/1.2 portrait lens', '28-300mm travel zoom'
     ],
     
     technical: [
@@ -57,7 +94,14 @@ const photoElements = {
         'bokeh background', 'wide aperture', 'narrow aperture', 'high dynamic range',
         'perfect focus', 'f/1.4 aperture', 'long exposure', 'center-weighted composition',
         'symmetrical framing', 'leading lines composition', 'high contrast',
-        'low ISO', 'HDR technique', 'diagonal composition', 'golden ratio framing'
+        'low ISO', 'HDR technique', 'diagonal composition', 'golden ratio framing',
+        // 20 more options
+        'deep depth of field', 'multiple exposure technique', 'focus stacking',
+        'spot metering', 'hyperfocal distance', 'bulb exposure', 'panoramic stitching',
+        'pixel shift technology', 'bracketed exposure', 'flash sync', 'radial composition',
+        'triangular composition', 'S-curve composition', 'contre-jour technique',
+        '1/1000s shutter speed', 'focus pulling', 'selective focus', 'tilt-shift effect',
+        'vignette effect', 'macro magnification'
     ],
     
     resolution: [
@@ -66,7 +110,14 @@ const photoElements = {
         '100 megapixel detail', 'medium format quality', '45MP full-frame sensor',
         'tack-sharp resolution', '12K cinematic resolution', 'lossless RAW quality',
         'fine detail capture', 'large format equivalent', '16-bit color depth',
-        'crystal clear definition'
+        'crystal clear definition',
+        // 20 more options
+        'micro detail', 'cinematic resolution', 'textural clarity', 'razor sharp',
+        'hyper detailed', 'pixel-perfect clarity', 'super-resolution', 'film grain detail',
+        'pristine image quality', 'beyond 8K clarity', 'next-gen detail level',
+        'magazine print quality', 'billboard-sized clarity', 'microscopic detail',
+        'studio master quality', 'retina resolution', 'impeccable sharpness',
+        'ultra-fine grain texture', 'commercial print clarity', 'infinite detail'
     ],
     
     aesthetics: [
@@ -74,7 +125,14 @@ const photoElements = {
         'vintage film look', 'lifestyle photography aesthetic', 'cinematic color grading',
         'photojournalistic style', 'minimalist', 'high contrast', 'matte finish',
         'film emulation', 'vintage color grading', 'classic portraiture',
-        'moody tone', 'clean and crisp', 'dramatic processing', 'fine art style'
+        'moody tone', 'clean and crisp', 'dramatic processing', 'fine art style',
+        // 20 more options
+        'sepia toning', 'cross-processing effect', 'split toning', 'faded film look',
+        'HDR style', 'blue hour tones', 'infrared effect', 'duotone treatment',
+        'soft pastel colors', 'analog film grain', 'bleach bypass look', 'low saturation',
+        'high clarity', 'contrasty shadows', 'luminous highlights', 'complementary colors',
+        'color harmony', 'retro color science', 'black and white with color accents',
+        'technical color grading'
     ],
     
     qualityExtras: [
@@ -83,7 +141,15 @@ const photoElements = {
         'National Geographic quality', 'studio quality', 'flawless execution',
         'impeccable lighting', 'perfect composition', 'photographic excellence',
         'gallery worthy', 'pristine quality', 'commercial grade', 'extraordinary detail',
-        'premium finish'
+        'premium finish',
+        // 20 more options
+        'masterful execution', 'fashion editorial worthy', 'archival quality',
+        'art exhibition standard', 'museum quality', 'luxury aesthetic',
+        'technical perfection', 'attention to detail', 'expertly edited',
+        'balanced exposure', 'cinematic quality', 'perfectly exposed',
+        'true-to-life colors', 'master craftsmanship', 'competition level',
+        'refined post-processing', 'prestige quality', 'advertising grade',
+        'elite standard', 'professional retouching'
     ]
 };
 
@@ -125,6 +191,85 @@ const commonAdjectives = [
     'tall', 'short', 'petite', 'plus-size', 'thick', 'thin',
     'strong', 'powerful', 'elegant', 'graceful', 'slim'
 ];
+
+// Initialize history from localStorage or create empty array
+let promptHistory = JSON.parse(localStorage.getItem('promptHistory')) || [];
+const MAX_HISTORY_ITEMS = 10;
+
+// Function to save a prompt to history
+function saveToHistory(subject, prompt) {
+    const historyItem = {
+        subject: subject,
+        prompt: prompt,
+        timestamp: new Date().toLocaleString()
+    };
+    
+    // Add to the beginning of the array
+    promptHistory.unshift(historyItem);
+    
+    // Keep only the most recent MAX_HISTORY_ITEMS
+    if (promptHistory.length > MAX_HISTORY_ITEMS) {
+        promptHistory = promptHistory.slice(0, MAX_HISTORY_ITEMS);
+    }
+    
+    // Save to localStorage
+    localStorage.setItem('promptHistory', JSON.stringify(promptHistory));
+    
+    // Update the UI
+    displayHistory();
+}
+
+// Function to display history
+function displayHistory() {
+    const historyList = document.querySelector('.history-list');
+    if (!historyList) return;
+    
+    // Clear current history
+    historyList.innerHTML = '';
+    
+    if (promptHistory.length === 0) {
+        historyList.innerHTML = '<div class="empty-history">No history yet. Generate some prompts!</div>';
+        return;
+    }
+    
+    // Add each history item
+    promptHistory.forEach((item, index) => {
+        const historyItem = document.createElement('div');
+        historyItem.className = 'history-item';
+        
+        historyItem.innerHTML = `
+            <div class="history-subject">${item.subject}</div>
+            <div class="history-prompt">${item.prompt}</div>
+            <div class="history-timestamp">${item.timestamp}</div>
+            <span class="history-copy-icon" title="Copy prompt">📋</span>
+        `;
+        
+        historyList.appendChild(historyItem);
+        
+        // Add copy functionality
+        const copyIcon = historyItem.querySelector('.history-copy-icon');
+        copyIcon.addEventListener('click', () => {
+            navigator.clipboard.writeText(item.prompt)
+                .then(() => {
+                    // Show copied status
+                    copyIcon.textContent = '✓';
+                    setTimeout(() => {
+                        copyIcon.textContent = '📋';
+                    }, 1500);
+                })
+                .catch(err => {
+                    console.error('Could not copy text: ', err);
+                });
+        });
+    });
+}
+
+// Function to clear history
+function clearHistory() {
+    promptHistory = [];
+    localStorage.removeItem('promptHistory');
+    displayHistory();
+}
 
 // Optimize the subject description enhancement
 function enhanceSubjectDescription(subject) {
@@ -193,10 +338,10 @@ function buildFullDescription(subject) {
     console.log("Building description for subject:", subject);
     
     try {
-        // Efficiently check for portrait in subject
-        const subjectDescription = subject.toLowerCase().includes('portrait') ? 
-                                subject : 
-                                `beautiful portrait of ${subject}`;
+        // Randomly decide whether to include "portrait of" or not
+        const includePortrait = Math.random() > 0.3;
+        const subjectDescription = includePortrait && !subject.toLowerCase().includes('portrait') ? 
+                                `beautiful portrait of ${subject}` : subject;
         
         // Check if each category has items before selecting
         if (!photoElements.styles || !photoElements.styles.length) {
@@ -207,7 +352,7 @@ function buildFullDescription(subject) {
         // Verify all necessary categories exist before destructuring
         const hasAllCategories = 
             Array.isArray(photoElements.styles) && 
-            (Array.isArray(photoElements.settings) || Array.isArray(photoElements.technical)) &&
+            Array.isArray(photoElements.technical) &&
             Array.isArray(photoElements.lighting) &&
             Array.isArray(photoElements.atmospheres) &&
             Array.isArray(photoElements.cameras) &&
@@ -220,38 +365,128 @@ function buildFullDescription(subject) {
         
         console.log("All categories present, selecting random elements");
         
-        // Use destructuring for cleaner random selection
-        const style = getRandomElement(photoElements.styles);
+        // Create a description template with randomized structure
+        const descriptionParts = [];
         
-        // Use either settings or technical for the setting value
-        const setting = Array.isArray(photoElements.settings) && photoElements.settings.length > 0 ? 
-                        getRandomElement(photoElements.settings) : 
-                        getRandomElement(photoElements.technical);
-                        
-        const lighting = getRandomElement(photoElements.lighting);
-        const atmosphere = getRandomElement(photoElements.atmospheres);
-        const camera = getRandomElement(photoElements.cameras);
-        const lens = getRandomElement(photoElements.lenses);
+        // Randomize which elements to include and their order
+        const elementProbabilities = {
+            style: 0.9,        // 90% chance to include style
+            setting: 0.8,      // 80% chance to include setting
+            lighting: 0.85,    // 85% chance to include lighting
+            atmosphere: 0.75,  // 75% chance to include atmosphere
+            camera: 0.7,       // 70% chance to include camera
+            lens: 0.7,         // 70% chance to include lens
+            technical: 0.8,    // 80% chance to include technical
+            resolution: 0.85,  // 85% chance to include resolution
+            aesthetic: 0.9,    // 90% chance to include aesthetic
+            quality: 0.95      // 95% chance to include quality
+        };
         
-        // Use technical instead of settings to avoid confusion with the settings array
-        const technicalSetting = getRandomElement(photoElements.technical);
-        const resolutionDesc = getRandomElement(photoElements.resolution);
-        const aesthetic = getRandomElement(photoElements.aesthetics);
+        // Always include the subject
+        descriptionParts.push(subjectDescription);
         
-        // More efficient quality descriptor selection
-        const qualityCount = Math.floor(Math.random() * 2) + 2; // 2 or 3
-        const qualityDescriptors = getRandomElements(photoElements.qualityExtras, qualityCount).join(', ');
+        // Add style with probability
+        if (Math.random() < elementProbabilities.style) {
+            descriptionParts.push(getRandomElement(photoElements.styles));
+        }
+        
+        // Add setting with probability
+        if (Math.random() < elementProbabilities.setting) {
+            // Include setting from technical array since settings was merged
+            descriptionParts.push(getRandomElement(photoElements.technical));
+        }
+        
+        // Add lighting with probability
+        if (Math.random() < elementProbabilities.lighting) {
+            descriptionParts.push(getRandomElement(photoElements.lighting));
+        }
+        
+        // Add atmosphere with probability
+        if (Math.random() < elementProbabilities.atmosphere) {
+            const atmosphere = getRandomElement(photoElements.atmospheres);
+            // 50% chance to add "atmosphere" after the atmosphere word
+            descriptionParts.push(Math.random() > 0.5 ? `${atmosphere} atmosphere` : atmosphere);
+        }
+        
+        // Add camera and lens with probability
+        if (Math.random() < elementProbabilities.camera) {
+            const camera = getRandomElement(photoElements.cameras);
+            
+            if (Math.random() < elementProbabilities.lens) {
+                const lens = getRandomElement(photoElements.lenses);
+                // Different ways to include camera and lens
+                const cameraLensFormats = [
+                    `shot on ${camera} with ${lens}`,
+                    `captured with ${camera} using ${lens}`,
+                    `photographed on ${camera} with ${lens}`,
+                    `taken on ${camera} with ${lens}`
+                ];
+                descriptionParts.push(getRandomElement(cameraLensFormats));
+            } else {
+                // Camera only
+                descriptionParts.push(`shot on ${camera}`);
+            }
+        } else if (Math.random() < elementProbabilities.lens) {
+            // Lens only
+            descriptionParts.push(`shot with ${getRandomElement(photoElements.lenses)}`);
+        }
+        
+        // Add technical setting with probability
+        if (Math.random() < elementProbabilities.technical) {
+            descriptionParts.push(getRandomElement(photoElements.technical));
+        }
+        
+        // Add resolution with probability
+        if (Math.random() < elementProbabilities.resolution) {
+            descriptionParts.push(getRandomElement(photoElements.resolution));
+        }
+        
+        // Add aesthetic with probability
+        if (Math.random() < elementProbabilities.aesthetic) {
+            descriptionParts.push(getRandomElement(photoElements.aesthetics));
+        }
+        
+        // Add quality descriptors with probability
+        if (Math.random() < elementProbabilities.quality) {
+            // Vary the number of quality descriptors (1-3)
+            const qualityCount = Math.floor(Math.random() * 3) + 1;
+            descriptionParts.push(getRandomElements(photoElements.qualityExtras, qualityCount).join(', '));
+        }
+        
+        // Shuffle the order of description parts (except the subject which stays first)
+        const subjectPart = descriptionParts[0];
+        const remainingParts = descriptionParts.slice(1);
+        
+        // Randomize order of the remaining parts - 50% chance
+        if (Math.random() > 0.5) {
+            for (let i = remainingParts.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [remainingParts[i], remainingParts[j]] = [remainingParts[j], remainingParts[i]];
+            }
+        }
+        
+        // Randomly decide to put subject first or somewhere else
+        const shuffledParts = Math.random() > 0.7 ? 
+            [...remainingParts, subjectPart] : // 30% chance subject goes at the end
+            [subjectPart, ...remainingParts];  // 70% chance subject stays first
         
         console.log("All elements selected, building description");
         
-        // Template literal for better string construction
-        let description = `${style}, ${setting}, ${subjectDescription}, ${lighting}, ${atmosphere} atmosphere, shot on ${camera} with ${lens}, ${technicalSetting}, ${resolutionDesc}, ${aesthetic}, ${qualityDescriptors}.`;
+        // Join with commas and add period at the end
+        let description = shuffledParts.join(', ');
+        if (!description.endsWith('.')) {
+            description += '.';
+        }
         
         console.log("Description before duplicate removal:", description);
         
         // Remove duplicates and return
         const finalDescription = removeDuplicateWords(description);
         console.log("Final description:", finalDescription);
+        
+        // Save to history
+        saveToHistory(subject, finalDescription);
+        
         return finalDescription;
     } catch (error) {
         console.error("Error in buildFullDescription:", error);
@@ -331,6 +566,79 @@ function getRandomElements(array, count) {
     return shuffled.slice(0, count);
 }
 
+// Function to generate description
+function generateDescription() {
+    try {
+        // Get subject from input
+        const subject = document.getElementById('subject').value.trim();
+        if (!subject) {
+            document.getElementById('output').value = "Please enter a subject for the description.";
+            return;
+        }
+
+        // Generate the description
+        const enhancedSubject = enhanceSubjectDescription(subject);
+        console.log("Enhanced subject:", enhancedSubject);
+        
+        const description = buildFullDescription(enhancedSubject);
+        console.log("Built description:", description);
+        
+        // Display the result
+        document.getElementById('output').value = description;
+        
+        // Save to history
+        saveToHistory(subject, description);
+        
+        // Automatically copy to clipboard
+        navigator.clipboard.writeText(description)
+            .then(() => {
+                // Update copy button
+                const copyBtn = document.getElementById('copy-btn');
+                copyBtn.textContent = 'Copied!';
+                setTimeout(() => {
+                    copyBtn.textContent = 'Copy to Clipboard';
+                }, 1500);
+                
+                // Show copy status
+                const copyStatus = document.getElementById('copy-status');
+                if (copyStatus) {
+                    copyStatus.textContent = 'Copied to clipboard!';
+                    copyStatus.style.color = '#28a745';
+                    copyStatus.classList.add('visible');
+                    
+                    // Hide the status after a delay
+                    setTimeout(() => {
+                        copyStatus.classList.remove('visible');
+                    }, 3000);
+                }
+            })
+            .catch(err => {
+                console.error('Could not copy text: ', err);
+                
+                // Show error in status
+                const copyStatus = document.getElementById('copy-status');
+                if (copyStatus) {
+                    copyStatus.textContent = 'Could not copy automatically';
+                    copyStatus.style.color = '#dc3545';
+                    copyStatus.classList.add('visible');
+                    
+                    setTimeout(() => {
+                        copyStatus.classList.remove('visible');
+                    }, 3000);
+                }
+            });
+        
+    } catch (error) {
+        console.error('Error generating description:', error);
+        document.getElementById('output').value = "An error occurred while generating the description.";
+    }
+}
+
+// Format the final output
+function formatFinalOutput(enhancedSubject, descriptionParts) {
+    return removeDuplicateWords(descriptionParts);
+}
+
 // Initialize DOM-dependent functionality with performance optimization
 document.addEventListener('DOMContentLoaded', function() {
     // Fix technical settings collision issue right at the start
@@ -347,127 +655,55 @@ document.addEventListener('DOMContentLoaded', function() {
     // Remove settings array to avoid confusion
     delete photoElements.settings;
     
-    // Cache DOM elements for better performance
-    function cacheElements() {
-        cachedElements.subjectInput = document.getElementById('subjectInput');
-        cachedElements.generatedOutput = document.getElementById('generatedOutput');
-        cachedElements.copyStatus = document.getElementById('copyStatus');
-        cachedElements.generateBtn = document.getElementById('generateBtn');
-        cachedElements.clearBtn = document.getElementById('clearBtn');
-    }
-    
-    // Generate description with debounce for responsiveness
-    let generateTimeout;
-    function generateDescription() {
-        // Simple direct approach to fix the generation issue
-        try {
-            const subject = document.getElementById('subjectInput').value.trim();
-            if (!subject) {
-                alert('Please enter a subject description');
-                return;
-            }
-            
-            console.log("Generating description for:", subject);
-            
-            const enhancedSubject = enhanceSubjectDescription(subject);
-            console.log("Enhanced subject:", enhancedSubject);
-            
-            const description = buildFullDescription(enhancedSubject);
-            console.log("Built description:", description);
-            
-            // Update the output text
-            document.getElementById('generatedOutput').textContent = description;
-            
-            // Automatically copy to clipboard
-            navigator.clipboard.writeText(description)
-                .then(() => {
-                    // Show copy status
-                    const copyStatus = document.getElementById('copyStatus');
-                    copyStatus.textContent = 'Copied to clipboard!';
-                    copyStatus.style.color = '#28a745';
-                    copyStatus.classList.add('visible');
-                    
-                    // Hide the status after a delay
-                    setTimeout(() => {
-                        copyStatus.classList.remove('visible');
-                    }, 3000);
-                })
-                .catch(err => {
-                    console.error('Failed to copy: ', err);
-                    const copyStatus = document.getElementById('copyStatus');
-                    copyStatus.textContent = 'Could not copy automatically';
-                    copyStatus.style.color = '#dc3545';
-                    copyStatus.classList.add('visible');
-                    
-                    setTimeout(() => {
-                        copyStatus.classList.remove('visible');
-                    }, 3000);
-                });
-        } catch (error) {
-            console.error("Error in generateDescription:", error);
-            document.getElementById('generatedOutput').textContent = 'Error generating description. Please try again.';
-        }
-    }
-    
-    // Clear all input and output fields
-    function clearAll() {
-        // Use cached elements for better performance
-        cachedElements.subjectInput.value = '';
-        cachedElements.generatedOutput.textContent = '';
-        cachedElements.copyStatus.textContent = '';
-        cachedElements.copyStatus.classList.remove('visible');
-        
-        // Focus back on input for better UX
-        cachedElements.subjectInput.focus();
-    }
-    
     // Set up event listeners with better performance
     function setupEventListeners() {
-        // Use passive event listeners for better scrolling performance
-        cachedElements.generateBtn.addEventListener('click', generateDescription, { passive: true });
-        cachedElements.clearBtn.addEventListener('click', clearAll, { passive: true });
+        const generateBtn = document.getElementById('generate-btn');
+        const copyBtn = document.getElementById('copy-btn');
+        const subjectInput = document.getElementById('subject');
+
+        if (generateBtn) {
+            console.log("Adding click handler to generate button");
+            generateBtn.addEventListener('click', generateDescription);
+        } else {
+            console.error("Generate button not found");
+        }
         
-        // Add keyboard accessibility
-        cachedElements.subjectInput.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
-                generateDescription();
-            }
-        });
+        if (copyBtn) {
+            console.log("Adding click handler to copy button");
+            copyBtn.addEventListener('click', function() {
+                const output = document.getElementById('output');
+                if (output && output.value) {
+                    navigator.clipboard.writeText(output.value)
+                        .then(() => {
+                            copyBtn.textContent = 'Copied!';
+                            setTimeout(() => {
+                                copyBtn.textContent = 'Copy to Clipboard';
+                            }, 1500);
+                        })
+                        .catch(err => {
+                            console.error('Could not copy text: ', err);
+                            copyBtn.textContent = 'Failed to copy';
+                            setTimeout(() => {
+                                copyBtn.textContent = 'Copy to Clipboard';
+                            }, 1500);
+                        });
+                }
+            });
+        }
         
-        // Add mobile-friendly touch events
-        if ('ontouchstart' in window) {
-            cachedElements.generateBtn.addEventListener('touchstart', function() {
-                this.classList.add('touch-active');
-            }, { passive: true });
-            
-            cachedElements.generateBtn.addEventListener('touchend', function() {
-                this.classList.remove('touch-active');
-            }, { passive: true });
+        if (subjectInput) {
+            subjectInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    generateDescription();
+                }
+            });
         }
     }
     
     // Initialize the application
     function init() {
         try {
-            cacheElements();
             setupEventListeners();
-            
-            // Add direct event listeners as a fallback
-            const generateBtn = document.getElementById('generateBtn');
-            const clearBtn = document.getElementById('clearBtn');
-            
-            if (generateBtn) {
-                console.log("Adding direct click handler to generate button");
-                generateBtn.onclick = generateDescription;
-            } else {
-                console.error("Generate button not found");
-            }
-            
-            if (clearBtn) {
-                console.log("Adding direct click handler to clear button");
-                clearBtn.onclick = clearAll;
-            }
-            
             console.log("Initialization complete");
         } catch (error) {
             console.error("Error during initialization:", error);
@@ -476,4 +712,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Start the application
     init();
+    
+    // Setup clear history button
+    const clearHistoryBtn = document.querySelector('.clear-history-btn');
+    if (clearHistoryBtn) {
+        clearHistoryBtn.addEventListener('click', clearHistory);
+    }
+    
+    // Display history on load
+    displayHistory();
 }); 

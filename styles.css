@@ -64,7 +64,42 @@ h3 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-textarea {
+.input-section input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border 0.3s;
+    min-height: 45px;
+}
+
+.input-section input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.input-section textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border 0.3s;
+}
+
+.input-section textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.output-section textarea {
     width: 100%;
     min-height: 120px;
     padding: 1rem;
@@ -76,7 +111,7 @@ textarea {
     transition: border 0.3s;
 }
 
-textarea:focus {
+.output-section textarea:focus {
     outline: none;
     border-color: #3498db;
     box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
@@ -137,14 +172,12 @@ button:hover {
 }
 
 .copy-status {
-    text-align: right;
+    margin-top: 0.5rem;
     font-size: 0.9rem;
-    color: #28a745;
-    margin-top: 10px;
-    height: 20px;
-    font-style: italic;
+    text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+    height: 1.2rem;
 }
 
 .copy-status.visible {
@@ -299,4 +332,106 @@ button.touch-active {
 button:focus, textarea:focus {
     outline: 2px solid #3498db;
     outline-offset: 2px;
+}
+
+/* History section styling */
+.history-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.history-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: white;
+}
+
+.history-item {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.history-item:last-child {
+    border-bottom: none;
+}
+
+.history-subject {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #3498db;
+}
+
+.history-prompt {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.history-timestamp {
+    font-size: 0.8rem;
+    color: #888;
+    text-align: right;
+}
+
+.history-copy-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.history-copy-icon:hover {
+    opacity: 1;
+}
+
+.empty-history {
+    padding: 2rem;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+/* Media queries for history section */
+@media (max-width: 768px) {
+    .history-section {
+        padding: 1rem;
+    }
+    
+    .history-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .history-header button {
+        margin-top: 0.5rem;
+    }
+    
+    .history-list {
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .history-section {
+        padding: 0.8rem;
+    }
+    
+    .history-item {
+        padding: 0.8rem;
+    }
 } 

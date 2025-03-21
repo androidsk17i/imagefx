@@ -12,20 +12,17 @@
         <h1>ImageFX Description Generator</h1>
         <p class="subtitle">Create concise photo descriptions for AI image generation</p>
         
-        <div class="input-section">
-            <h2>Enter Subject Description</h2>
-            <textarea id="subjectInput" placeholder="Describe your subject (e.g., A Malay female bodybuilder wearing sport bra and jog pants)"></textarea>
-            <div class="button-group">
-                <button id="generateBtn" type="button">Generate Description</button>
-                <button id="clearBtn" type="button" class="secondary-button">Clear</button>
+        <div class="input-output-container">
+            <div class="input-section">
+                <h3>Enter Subject</h3>
+                <textarea id="subject" placeholder="Enter a person, object, or scene to describe"></textarea>
+                <button id="generate-btn" class="btn">Generate</button>
             </div>
-        </div>
-        
-        <div class="output-section">
-            <h2>Generated Description</h2>
-            <div class="output-container">
-                <div id="generatedOutput"></div>
-                <div id="copyStatus" class="copy-status"></div>
+            <div class="output-section">
+                <h3>Description Output</h3>
+                <textarea id="output" placeholder="Your photo description will appear here" readonly></textarea>
+                <button id="copy-btn" class="btn">Copy to Clipboard</button>
+                <div id="copy-status" class="copy-status"></div>
             </div>
         </div>
         
@@ -53,6 +50,17 @@
             <div class="example-box">
                 <p><strong>Input Subject:</strong> A Malay female bodybuilder wearing sport bra and jog pants</p>
                 <p><strong>Generated Prompt:</strong> portrait photography, rustic outdoor setting, beautiful portrait of a malay muscular female bodybuilder wearing sport bra and jog pants, low-key dramatic shadows, relaxed atmosphere, shot on Sony Alpha a7R IV with 24-70mm f/2.8, fast shutter speed, ultra high definition, lifestyle photography aesthetic, intricate details, magazine quality, textured skin, professional photography.</p>
+            </div>
+        </div>
+        
+        <!-- History Section -->
+        <div class="history-section">
+            <div class="history-header">
+                <h3>History</h3>
+                <button class="clear-history-btn btn">Clear History</button>
+            </div>
+            <div class="history-list">
+                <!-- History items will be dynamically added here -->
             </div>
         </div>
     </div>
