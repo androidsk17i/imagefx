@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageFX Description Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>ImageFX Description Generator</h1>
+        <p class="subtitle">Create concise photo descriptions for AI image generation</p>
+        
+        <div class="input-section">
+            <h2>Enter Subject Description</h2>
+            <textarea id="subjectInput" placeholder="Describe your subject (e.g., A Malay female bodybuilder wearing sport bra and jog pants)"></textarea>
+            <div class="button-group">
+                <button id="generateBtn" type="button">Generate Description</button>
+                <button id="clearBtn" type="button" class="secondary-button">Clear</button>
+            </div>
+        </div>
+        
+        <div class="output-section">
+            <h2>Generated Description</h2>
+            <div class="output-container">
+                <div id="generatedOutput"></div>
+                <div id="copyStatus" class="copy-status"></div>
+            </div>
+        </div>
+        
+        <div class="structure-section">
+            <h2>Prompt Structure</h2>
+            <div class="structure-box">
+                <p>The generated prompt follows this exact format:</p>
+                <ol>
+                    <li><strong>Photography style</strong></li>
+                    <li><strong>Setting</strong> description</li>
+                    <li><strong>Subject description</strong> with ethnicity, physique, and clothing details</li>
+                    <li><strong>Lighting</strong> description</li>
+                    <li><strong>Atmosphere</strong> type</li>
+                    <li><strong>Camera</strong> model and lens</li>
+                    <li><strong>Technical</strong> settings</li>
+                    <li><strong>Resolution</strong></li>
+                    <li><strong>Style aesthetic</strong></li>
+                    <li><strong>Quality descriptors</strong> (intricate details, textured skin, etc.)</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="example-section">
+            <h2>Example</h2>
+            <div class="example-box">
+                <p><strong>Input Subject:</strong> A Malay female bodybuilder wearing sport bra and jog pants</p>
+                <p><strong>Generated Prompt:</strong> portrait photography, rustic outdoor setting, beautiful portrait of a malay muscular female bodybuilder wearing sport bra and jog pants, low-key dramatic shadows, relaxed atmosphere, shot on Sony Alpha a7R IV with 24-70mm f/2.8, fast shutter speed, ultra high definition, lifestyle photography aesthetic, intricate details, magazine quality, textured skin, professional photography.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
