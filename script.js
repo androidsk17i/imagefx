@@ -15,7 +15,15 @@ const photoElements = {
         'film noir style', 'double exposure portrait', 'infrared photography',
         'tonal portrait', 'contour photography', 'urban portrait', 
         'underwater photography', 'drone photography', 'lens flare photography',
-        'pop art style', 'color splash technique'
+        'pop art style', 'color splash technique',
+        // 20 additional options
+        'boudoir photography', 'still life photography', 'abstract photography',
+        'photographic collage', 'low light portraiture', 'panoramic portrait',
+        'fisheye perspective', 'split-tone portrait', 'experimental photography',
+        'photorealistic style', 'hyper-detailed realism', 'artistic nude',
+        'retro Polaroid style', 'psychedelic style', 'multiple exposure technique',
+        'glitch art style', 'holographic effect', 'lomography style',
+        'daguerreotype style', 'tintype reproduction'
     ],
     
     settings: [
@@ -31,7 +39,14 @@ const photoElements = {
         'art gallery', 'neon-lit street', 'ancient ruins', 'botanical garden',
         'subway station', 'victorian mansion', 'coastal cliffs', 'japanese zen garden',
         'tropical rainforest', 'retro diner', 'cobblestone alley', 'grand theater',
-        'luxury yacht', 'private jet interior', 'artist loft', 'winter wonderland scene'
+        'luxury yacht', 'private jet interior', 'artist loft', 'winter wonderland scene',
+        // 20 additional options
+        'underwater cave', 'hot air balloon', 'space station interior', 'crystal cave',
+        'enchanted forest', 'carnival at night', 'cyberpunk street', 'floating market',
+        'glacial landscape', 'derelict amusement park', 'middle eastern bazaar',
+        'antique library', 'gothic cathedral', 'desert oasis', 'mountain hot spring',
+        'bamboo forest', 'volcanic landscape', 'misty waterfall', 'coral reef',
+        'mediterranean villa'
     ],
     
     lighting: [
@@ -47,7 +62,15 @@ const photoElements = {
         'subtractive lighting', 'dramatic film noir lighting', 'mixed color temperature',
         'practical lighting', 'key light only', 'bounce lighting', 'ring light effect',
         'spotlighting', 'fresnel lighting', 'northern light', 'candlelight ambience',
-        'hard directional lighting'
+        'hard directional lighting',
+        // 20 additional options
+        'sunset rim lighting', 'fractured light through trees', 'underwater lighting',
+        'light painting technique', 'starlight exposure', 'fire-lit scene',
+        'bioluminescent lighting', 'light leak effect', 'cathedral window light',
+        'cave lighting', 'dappled light pattern', 'city light pollution glow',
+        'moonlight only', 'double rainbow lighting', 'fairy light bokeh',
+        'projector light pattern', 'lightning strike illumination', 'colored gel lighting',
+        'anamorphic lens flare', 'misty fog diffusion'
     ],
     
     atmospheres: [
@@ -58,7 +81,12 @@ const photoElements = {
         // 20 more options
         'somber', 'whimsical', 'tranquil', 'suspenseful', 'exotic', 'adventurous',
         'mystical', 'tender', 'crisp', 'warm', 'cool', 'romantic', 'dynamic',
-        'elegant', 'raw', 'moody', 'enchanting', 'bold', 'surreal', 'idyllic'
+        'elegant', 'raw', 'moody', 'enchanting', 'bold', 'surreal', 'idyllic',
+        // 20 additional options
+        'haunting', 'celestial', 'primal', 'hypnotic', 'fantastical', 'euphoric',
+        'evocative', 'transcendent', 'divine', 'chaotic', 'harmonious', 'foreboding',
+        'ethereal', 'eclectic', 'opulent', 'minimalist', 'atmospheric', 'timeless',
+        'futuristic', 'nostalgic'
     ],
     
     cameras: [
@@ -72,7 +100,13 @@ const photoElements = {
         'Leica SL2', 'Hasselblad 907X', 'Ricoh GR III', 'Canon EOS R6 Mark II',
         'Sony Alpha a6600', 'Nikon Z6 II', 'Fujifilm X-Pro3', 'Panasonic Lumix GH6',
         'Leica M10-R', 'Phase One IQ4', 'Pentax 645Z', 'Olympus E-M1X',
-        'DJI Hasselblad X2D', 'Sigma fp L', 'RED Komodo', 'Blackmagic Pocket Cinema Camera 6K'
+        'DJI Hasselblad X2D', 'Sigma fp L', 'RED Komodo', 'Blackmagic Pocket Cinema Camera 6K',
+        // 20 additional options
+        'Leica M Monochrom', 'Canon EOS C70', 'Nikon Z7 III', 'Fujifilm X-H2S',
+        'Sony FX3', 'ARRI ALEXA Mini', 'RED V-Raptor', 'Canon EOS R1', 
+        'Hasselblad 503CW', 'Mamiya RZ67', 'Contax 645', 'Plaubel Makina 67',
+        'Sony Venice', 'Leica S3', 'Pentax 67II', 'Rolleiflex 2.8F',
+        'Linhof Technorama', 'Sinar P2', 'Intrepid 4×5', 'Horseman SW612'
     ],
     
     lenses: [
@@ -86,7 +120,15 @@ const photoElements = {
         '600mm super telephoto', '45mm tilt-shift', '8mm fisheye', '70-300mm variable aperture',
         '120mm macro f/4', '50mm f/0.95', '17-40mm ultra-wide zoom', '100mm f/2.8',
         '400mm f/4', '20mm f/1.8', '180mm f/3.5 macro', '65mm f/2 medium format',
-        '150-600mm super zoom', '56mm f/1.2 portrait lens', '28-300mm travel zoom'
+        '150-600mm super zoom', '56mm f/1.2 portrait lens', '28-300mm travel zoom',
+        // 20 additional options
+        '15mm f/2.8 diagonal fisheye', '800mm f/5.6 super telephoto', '10mm rectilinear',
+        '90mm macro tilt-shift', '135mm soft focus', '200-600mm f/5.6-6.3',
+        '30mm f/1.4 art lens', '300mm f/4 DO IS', '500mm f/4 prime',
+        '1200mm f/5.6 extreme telephoto', '2x teleconverter', '120-300mm f/2.8 sports',
+        '60mm f/2.8 1:1 macro', '75mm f/0.85 nocturnus', '18mm f/2.0 pancake',
+        '45mm perspective control', '24mm f/3.5 tilt-shift', '400mm f/2.8 sports prime',
+        '35mm f/0.95 manual focus', '100-500mm f/4.5-7.1'
     ],
     
     technical: [
@@ -101,7 +143,14 @@ const photoElements = {
         'pixel shift technology', 'bracketed exposure', 'flash sync', 'radial composition',
         'triangular composition', 'S-curve composition', 'contre-jour technique',
         '1/1000s shutter speed', 'focus pulling', 'selective focus', 'tilt-shift effect',
-        'vignette effect', 'macro magnification'
+        'vignette effect', 'macro magnification',
+        // 20 additional options
+        'zero distortion', 'exposure blending', 'luminosity masking', 'reflector fill',
+        'frequency separation', 'compositing technique', 'dodging and burning',
+        'white balance shift', 'diffraction compensation', 'chromatic aberration control',
+        'perspective correction', 'dehaze technique', 'neutral density gradient',
+        'backlit subject compensation', 'flash fill balance', 'leaf shutter sync',
+        'high-speed sync', 'HSL adjustment', 'zone system exposure', 'lens compression effect'
     ],
     
     resolution: [
@@ -117,7 +166,15 @@ const photoElements = {
         'pristine image quality', 'beyond 8K clarity', 'next-gen detail level',
         'magazine print quality', 'billboard-sized clarity', 'microscopic detail',
         'studio master quality', 'retina resolution', 'impeccable sharpness',
-        'ultra-fine grain texture', 'commercial print clarity', 'infinite detail'
+        'ultra-fine grain texture', 'commercial print clarity', 'infinite detail',
+        // 20 additional options
+        'photorealistic textures', 'lifelike detail', 'molecular level detail',
+        'superlative sharpness', 'quantum resolution', 'extreme magnification clarity',
+        'image stacking detail', 'reference monitor quality', 'color-accurate detail',
+        'unsurpassed definition', 'cinema DCP quality', 'exhibition print clarity',
+        'photogrammetric precision', 'uncompressed RAW detail', 'ultra-high MTF sharpness',
+        'pixel-binning clarity', 'gigapixel resolution', 'artifact-free rendering',
+        'scientific imaging clarity', 'archival reproduction detail'
     ],
     
     aesthetics: [
@@ -132,7 +189,15 @@ const photoElements = {
         'soft pastel colors', 'analog film grain', 'bleach bypass look', 'low saturation',
         'high clarity', 'contrasty shadows', 'luminous highlights', 'complementary colors',
         'color harmony', 'retro color science', 'black and white with color accents',
-        'technical color grading'
+        'technical color grading',
+        // 20 additional options
+        'teal and orange color grading', 'Kodachrome emulation', 'Polaroid color shift',
+        'cinematic anamorphic look', 'daguerreotype aesthetic', 'cyanotype processing',
+        'platinum print look', 'wet plate collodion style', 'autochrome color palette',
+        'vivid saturated colors', 'noir aesthetic', 'fujifilm superia palette',
+        'kodak portra emulation', 'lomography aesthetic', 'expired film look',
+        'selective color isolation', 'solarization effect', 'posterization treatment',
+        'luminance priority editing', 'tone-mapped HDR'
     ],
     
     qualityExtras: [
@@ -149,7 +214,15 @@ const photoElements = {
         'balanced exposure', 'cinematic quality', 'perfectly exposed',
         'true-to-life colors', 'master craftsmanship', 'competition level',
         'refined post-processing', 'prestige quality', 'advertising grade',
-        'elite standard', 'professional retouching'
+        'elite standard', 'professional retouching',
+        // 20 additional options
+        'artisanal processing', 'sublime aesthetics', 'rarified execution',
+        'photo contest winner', 'iconic imagery', 'signature style',
+        'collector\'s item quality', 'photographic purity', 'portfolio centerpiece',
+        'immaculate detail preservation', 'exacting standards', 'visual storytelling',
+        'calculated spontaneity', 'cultivated authenticity', 'painterly quality',
+        'curated aesthetics', 'international award-winning', 'unparalleled clarity',
+        'compelling composition', 'visual mastery'
     ]
 };
 
@@ -338,10 +411,16 @@ function buildFullDescription(subject) {
     console.log("Building description for subject:", subject);
     
     try {
-        // Randomly decide whether to include "portrait of" or not
-        const includePortrait = Math.random() > 0.3;
-        const subjectDescription = includePortrait && !subject.toLowerCase().includes('portrait') ? 
-                                `beautiful portrait of ${subject}` : subject;
+        // Randomly decide whether to include "portrait of" or not - more variance
+        const portraitStyle = Math.random();
+        let subjectDescription = subject;
+        
+        if (portraitStyle < 0.3 && !subject.toLowerCase().includes('portrait')) {
+            subjectDescription = `beautiful portrait of ${subject}`;
+        } else if (portraitStyle < 0.5 && !subject.toLowerCase().includes('portrait')) {
+            subjectDescription = `portrait of ${subject}`;
+        }
+        // Otherwise just use the subject as-is
         
         // Check if each category has items before selecting
         if (!photoElements.styles || !photoElements.styles.length) {
@@ -368,44 +447,97 @@ function buildFullDescription(subject) {
         // Create a description template with randomized structure
         const descriptionParts = [];
         
-        // Randomize which elements to include and their order
+        // Randomize which elements to include with even more variability
         const elementProbabilities = {
-            style: 0.9,        // 90% chance to include style
-            setting: 0.8,      // 80% chance to include setting
-            lighting: 0.85,    // 85% chance to include lighting
-            atmosphere: 0.75,  // 75% chance to include atmosphere
-            camera: 0.7,       // 70% chance to include camera
-            lens: 0.7,         // 70% chance to include lens
-            technical: 0.8,    // 80% chance to include technical
-            resolution: 0.85,  // 85% chance to include resolution
-            aesthetic: 0.9,    // 90% chance to include aesthetic
-            quality: 0.95      // 95% chance to include quality
+            style: Math.random() * 0.2 + 0.7,     // 70-90% chance
+            setting: Math.random() * 0.3 + 0.6,   // 60-90% chance
+            lighting: Math.random() * 0.3 + 0.6,  // 60-90% chance
+            atmosphere: Math.random() * 0.4 + 0.4, // 40-80% chance
+            camera: Math.random() * 0.5 + 0.3,    // 30-80% chance
+            lens: Math.random() * 0.5 + 0.3,      // 30-80% chance
+            technical: Math.random() * 0.3 + 0.6,  // 60-90% chance
+            resolution: Math.random() * 0.3 + 0.6, // 60-90% chance
+            aesthetic: Math.random() * 0.3 + 0.6,  // 60-90% chance
+            quality: Math.random() * 0.2 + 0.7    // 70-90% chance
         };
         
-        // Always include the subject
-        descriptionParts.push(subjectDescription);
+        // Randomly decide where to place the subject (start, middle, end)
+        const subjectPosition = Math.random();
+        
+        if (subjectPosition < 0.7) {
+            // 70% chance - place subject at the beginning
+            descriptionParts.push(subjectDescription);
+        }
         
         // Add style with probability
         if (Math.random() < elementProbabilities.style) {
-            descriptionParts.push(getRandomElement(photoElements.styles));
+            // 20% chance to add multiple styles (1-2)
+            if (Math.random() < 0.2) {
+                const styleCount = Math.floor(Math.random() * 2) + 1;
+                descriptionParts.push(getRandomElements(photoElements.styles, styleCount).join(' with '));
+            } else {
+                descriptionParts.push(getRandomElement(photoElements.styles));
+            }
         }
         
         // Add setting with probability
         if (Math.random() < elementProbabilities.setting) {
-            // Include setting from technical array since settings was merged
-            descriptionParts.push(getRandomElement(photoElements.technical));
+            // Get setting from either settings or technical arrays
+            const useSettings = Math.random() < 0.7;
+            if (useSettings && photoElements.settings) {
+                descriptionParts.push(getRandomElement(photoElements.settings));
+            } else {
+                // Use a technical element as a setting sometimes
+                descriptionParts.push(getRandomElement(photoElements.technical));
+            }
+        }
+        
+        // Maybe add subject in the middle (15% chance)
+        if (subjectPosition >= 0.7 && subjectPosition < 0.85 && !descriptionParts.includes(subjectDescription)) {
+            descriptionParts.push(subjectDescription);
         }
         
         // Add lighting with probability
         if (Math.random() < elementProbabilities.lighting) {
-            descriptionParts.push(getRandomElement(photoElements.lighting));
+            const lighting = getRandomElement(photoElements.lighting);
+            
+            // 30% chance to add some variety to the lighting description
+            if (Math.random() < 0.3) {
+                const lightingFormats = [
+                    `illuminated with ${lighting}`,
+                    `with ${lighting}`,
+                    `using ${lighting}`,
+                    lighting
+                ];
+                descriptionParts.push(getRandomElement(lightingFormats));
+            } else {
+                descriptionParts.push(lighting);
+            }
         }
         
         // Add atmosphere with probability
         if (Math.random() < elementProbabilities.atmosphere) {
             const atmosphere = getRandomElement(photoElements.atmospheres);
-            // 50% chance to add "atmosphere" after the atmosphere word
-            descriptionParts.push(Math.random() > 0.5 ? `${atmosphere} atmosphere` : atmosphere);
+            
+            // Different ways to include atmosphere
+            const atmosphereFormats = [
+                `${atmosphere} atmosphere`,
+                `${atmosphere} mood`,
+                `${atmosphere} feeling`,
+                atmosphere
+            ];
+            
+            // Choose a random format with weights
+            const formatChoice = Math.random();
+            if (formatChoice < 0.4) {
+                descriptionParts.push(atmosphereFormats[0]); // 40% atmosphere
+            } else if (formatChoice < 0.6) {
+                descriptionParts.push(atmosphereFormats[1]); // 20% mood
+            } else if (formatChoice < 0.7) {
+                descriptionParts.push(atmosphereFormats[2]); // 10% feeling
+            } else {
+                descriptionParts.push(atmosphereFormats[3]); // 30% just the word
+            }
         }
         
         // Add camera and lens with probability
@@ -414,26 +546,49 @@ function buildFullDescription(subject) {
             
             if (Math.random() < elementProbabilities.lens) {
                 const lens = getRandomElement(photoElements.lenses);
+                
                 // Different ways to include camera and lens
                 const cameraLensFormats = [
                     `shot on ${camera} with ${lens}`,
                     `captured with ${camera} using ${lens}`,
                     `photographed on ${camera} with ${lens}`,
-                    `taken on ${camera} with ${lens}`
+                    `taken on ${camera} with ${lens}`,
+                    `${camera} with ${lens}`,
+                    `${camera}, ${lens}`
                 ];
+                
                 descriptionParts.push(getRandomElement(cameraLensFormats));
             } else {
-                // Camera only
-                descriptionParts.push(`shot on ${camera}`);
+                // Camera only variations
+                const cameraFormats = [
+                    `shot on ${camera}`,
+                    `captured with ${camera}`,
+                    `photographed with ${camera}`,
+                    `${camera}`
+                ];
+                descriptionParts.push(getRandomElement(cameraFormats));
             }
         } else if (Math.random() < elementProbabilities.lens) {
-            // Lens only
-            descriptionParts.push(`shot with ${getRandomElement(photoElements.lenses)}`);
+            // Lens only variations
+            const lens = getRandomElement(photoElements.lenses);
+            const lensFormats = [
+                `shot with ${lens}`,
+                `using ${lens}`,
+                `with ${lens}`,
+                lens
+            ];
+            descriptionParts.push(getRandomElement(lensFormats));
         }
         
         // Add technical setting with probability
         if (Math.random() < elementProbabilities.technical) {
-            descriptionParts.push(getRandomElement(photoElements.technical));
+            // Sometimes add multiple technical aspects
+            if (Math.random() < 0.25) {
+                const techCount = Math.floor(Math.random() * 2) + 1;
+                descriptionParts.push(getRandomElements(photoElements.technical, techCount).join(', '));
+            } else {
+                descriptionParts.push(getRandomElement(photoElements.technical));
+            }
         }
         
         // Add resolution with probability
@@ -443,37 +598,66 @@ function buildFullDescription(subject) {
         
         // Add aesthetic with probability
         if (Math.random() < elementProbabilities.aesthetic) {
-            descriptionParts.push(getRandomElement(photoElements.aesthetics));
+            // Sometimes add multiple aesthetics
+            if (Math.random() < 0.15) {
+                const aestheticCount = Math.floor(Math.random() * 2) + 1;
+                descriptionParts.push(getRandomElements(photoElements.aesthetics, aestheticCount).join(' with '));
+            } else {
+                descriptionParts.push(getRandomElement(photoElements.aesthetics));
+            }
+        }
+        
+        // Maybe add subject at the end (15% chance)
+        if (subjectPosition >= 0.85 && !descriptionParts.includes(subjectDescription)) {
+            descriptionParts.push(subjectDescription);
         }
         
         // Add quality descriptors with probability
         if (Math.random() < elementProbabilities.quality) {
-            // Vary the number of quality descriptors (1-3)
-            const qualityCount = Math.floor(Math.random() * 3) + 1;
-            descriptionParts.push(getRandomElements(photoElements.qualityExtras, qualityCount).join(', '));
-        }
-        
-        // Shuffle the order of description parts (except the subject which stays first)
-        const subjectPart = descriptionParts[0];
-        const remainingParts = descriptionParts.slice(1);
-        
-        // Randomize order of the remaining parts - 50% chance
-        if (Math.random() > 0.5) {
-            for (let i = remainingParts.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [remainingParts[i], remainingParts[j]] = [remainingParts[j], remainingParts[i]];
+            // Vary the number of quality descriptors even more (1-4)
+            const qualityCount = Math.floor(Math.random() * 4) + 1;
+            const qualityParts = getRandomElements(photoElements.qualityExtras, qualityCount);
+            
+            // Sometimes join with "and" for the last element
+            if (Math.random() < 0.3 && qualityParts.length > 1) {
+                const lastQuality = qualityParts.pop();
+                descriptionParts.push(`${qualityParts.join(', ')} and ${lastQuality}`);
+            } else {
+                descriptionParts.push(qualityParts.join(', '));
             }
         }
         
-        // Randomly decide to put subject first or somewhere else
-        const shuffledParts = Math.random() > 0.7 ? 
-            [...remainingParts, subjectPart] : // 30% chance subject goes at the end
-            [subjectPart, ...remainingParts];  // 70% chance subject stays first
+        // Ensure subject is included somewhere if it wasn't added yet
+        if (!descriptionParts.some(part => part === subjectDescription)) {
+            // Insert at a random position
+            const randomPos = Math.floor(Math.random() * (descriptionParts.length + 1));
+            descriptionParts.splice(randomPos, 0, subjectDescription);
+        }
+        
+        // Randomize order of all the parts completely - 30% chance
+        if (Math.random() < 0.3) {
+            for (let i = descriptionParts.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [descriptionParts[i], descriptionParts[j]] = [descriptionParts[j], descriptionParts[i]];
+            }
+        }
         
         console.log("All elements selected, building description");
         
-        // Join with commas and add period at the end
-        let description = shuffledParts.join(', ');
+        // Join with commas or other connectors
+        let description = '';
+        if (Math.random() < 0.9) {
+            // 90% chance: Join with commas
+            description = descriptionParts.join(', ');
+        } else {
+            // 10% chance: Mix of commas and semicolons
+            description = descriptionParts.map((part, i) => {
+                // Every third part, use semicolon instead
+                return (i > 0 && i % 3 === 0) ? `; ${part}` : part;
+            }).join(', ');
+        }
+        
+        // Ensure it ends with a period
         if (!description.endsWith('.')) {
             description += '.';
         }
@@ -569,8 +753,12 @@ function getRandomElements(array, count) {
 // Function to generate description
 function generateDescription() {
     try {
+        console.log("Generate button clicked");
+        
         // Get subject from input
         const subject = document.getElementById('subject').value.trim();
+        console.log("Subject input value:", subject);
+        
         if (!subject) {
             document.getElementById('output').value = "Please enter a subject for the description.";
             return;
@@ -584,20 +772,27 @@ function generateDescription() {
         console.log("Built description:", description);
         
         // Display the result
-        document.getElementById('output').value = description;
+        const outputElement = document.getElementById('output');
+        console.log("Output element found:", !!outputElement);
         
-        // Save to history
-        saveToHistory(subject, description);
+        if (outputElement) {
+            outputElement.value = description;
+            console.log("Set output value to description");
+        } else {
+            console.error("Output element not found");
+        }
         
         // Automatically copy to clipboard
         navigator.clipboard.writeText(description)
             .then(() => {
                 // Update copy button
                 const copyBtn = document.getElementById('copy-btn');
-                copyBtn.textContent = 'Copied!';
-                setTimeout(() => {
-                    copyBtn.textContent = 'Copy to Clipboard';
-                }, 1500);
+                if (copyBtn) {
+                    copyBtn.textContent = 'Copied!';
+                    setTimeout(() => {
+                        copyBtn.textContent = 'Copy to Clipboard';
+                    }, 1500);
+                }
                 
                 // Show copy status
                 const copyStatus = document.getElementById('copy-status');
@@ -641,6 +836,8 @@ function formatFinalOutput(enhancedSubject, descriptionParts) {
 
 // Initialize DOM-dependent functionality with performance optimization
 document.addEventListener('DOMContentLoaded', function() {
+    console.log("DOM fully loaded");
+    
     // Fix technical settings collision issue right at the start
     const tempSettings = photoElements.settings;
     photoElements.technical = photoElements.technical || []; // Make sure technical exists
@@ -655,63 +852,51 @@ document.addEventListener('DOMContentLoaded', function() {
     // Remove settings array to avoid confusion
     delete photoElements.settings;
     
-    // Set up event listeners with better performance
-    function setupEventListeners() {
-        const generateBtn = document.getElementById('generate-btn');
-        const copyBtn = document.getElementById('copy-btn');
-        const subjectInput = document.getElementById('subject');
-
-        if (generateBtn) {
-            console.log("Adding click handler to generate button");
-            generateBtn.addEventListener('click', generateDescription);
-        } else {
-            console.error("Generate button not found");
-        }
-        
-        if (copyBtn) {
-            console.log("Adding click handler to copy button");
-            copyBtn.addEventListener('click', function() {
-                const output = document.getElementById('output');
-                if (output && output.value) {
-                    navigator.clipboard.writeText(output.value)
-                        .then(() => {
-                            copyBtn.textContent = 'Copied!';
-                            setTimeout(() => {
-                                copyBtn.textContent = 'Copy to Clipboard';
-                            }, 1500);
-                        })
-                        .catch(err => {
-                            console.error('Could not copy text: ', err);
-                            copyBtn.textContent = 'Failed to copy';
-                            setTimeout(() => {
-                                copyBtn.textContent = 'Copy to Clipboard';
-                            }, 1500);
-                        });
-                }
-            });
-        }
-        
-        if (subjectInput) {
-            subjectInput.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter') {
-                    generateDescription();
-                }
-            });
-        }
+    console.log("Set up event listeners");
+    
+    // Set up event listeners directly
+    const generateBtn = document.getElementById('generate-btn');
+    if (generateBtn) {
+        console.log("Found generate button, adding click handler");
+        generateBtn.addEventListener('click', function() {
+            console.log("Generate button clicked directly");
+            generateDescription();
+        });
+    } else {
+        console.error("Generate button not found with ID 'generate-btn'");
     }
     
-    // Initialize the application
-    function init() {
-        try {
-            setupEventListeners();
-            console.log("Initialization complete");
-        } catch (error) {
-            console.error("Error during initialization:", error);
-        }
+    const copyBtn = document.getElementById('copy-btn');
+    if (copyBtn) {
+        copyBtn.addEventListener('click', function() {
+            const output = document.getElementById('output');
+            if (output && output.value) {
+                navigator.clipboard.writeText(output.value)
+                    .then(() => {
+                        copyBtn.textContent = 'Copied!';
+                        setTimeout(() => {
+                            copyBtn.textContent = 'Copy to Clipboard';
+                        }, 1500);
+                    })
+                    .catch(err => {
+                        console.error('Could not copy text: ', err);
+                        copyBtn.textContent = 'Failed to copy';
+                        setTimeout(() => {
+                            copyBtn.textContent = 'Copy to Clipboard';
+                        }, 1500);
+                    });
+            }
+        });
     }
     
-    // Start the application
-    init();
+    const subjectInput = document.getElementById('subject');
+    if (subjectInput) {
+        subjectInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                generateDescription();
+            }
+        });
+    }
     
     // Setup clear history button
     const clearHistoryBtn = document.querySelector('.clear-history-btn');
@@ -721,4 +906,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Display history on load
     displayHistory();
+    
+    console.log("Event listeners set up successfully");
 }); 

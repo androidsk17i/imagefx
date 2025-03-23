@@ -6,35 +6,40 @@ A lightweight, responsive web application that generates professional photograph
 
 ## Features
 
-- **Template-Based Generation**: Creates coherent, structured photographic descriptions
+- **Highly Randomized Generation**: Creates unique, varied descriptions each time
 - **Intelligent Subject Enhancement**: Automatically enhances your subject with relevant details
 - **Duplicate Word Removal**: Smart processing to remove redundant words and phrases
 - **Auto-Copy to Clipboard**: Automatically copies generated descriptions when created
+- **Prompt History**: Saves your previous prompts for easy access and reuse
 - **Mobile Responsive**: Works seamlessly on desktop, tablet, and mobile devices
 - **No API Dependency**: Works completely offline, no external API needed
 - **Fast & Lightweight**: Optimized for performance with minimal resource usage
+- **Extensive Vocabulary**: Includes 180+ options for each prompt element
 
 ## How It Works
 
 The ImageFX Description Generator builds structured descriptions using these elements:
 
-1. **Photography Style** - Professional photography style
-2. **Setting** - Environment or background
+1. **Photography Style** - Professional photography style (60+ options)
+2. **Setting** - Environment or background (60+ options)
 3. **Subject Description** - Enhanced with ethnicity and physique details
-4. **Lighting** - Professional lighting setup
-5. **Atmosphere** - Mood and feel
-6. **Camera & Lens** - Professional equipment details
-7. **Technical Settings** - Composition and technical specifics
-8. **Resolution** - Quality and resolution details
-9. **Aesthetic** - Overall visual style
-10. **Quality Descriptors** - Professional finishing touches
+4. **Lighting** - Professional lighting setup (60+ options)
+5. **Atmosphere** - Mood and feel (60+ options)
+6. **Camera & Lens** - Professional equipment details (60+ options each)
+7. **Technical Settings** - Composition and technical specifics (60+ options)
+8. **Resolution** - Quality and resolution details (60+ options)
+9. **Aesthetic** - Overall visual style (60+ options)
+10. **Quality Descriptors** - Professional finishing touches (60+ options)
+
+Each generation randomizes not just the elements, but also their inclusion probability, order, and phrasing for truly unique outputs every time.
 
 ## Usage
 
 1. Enter a basic subject description in the input field
-2. Click "Generate Description" or use Ctrl+Enter (Cmd+Enter on Mac)
+2. Click "Generate" or press Enter
 3. The app will create a professional description and automatically copy it to your clipboard
 4. Paste the description into your favorite AI image generator
+5. View your prompt history at the bottom of the page for easy reuse
 
 ## Example
 
@@ -70,9 +75,9 @@ The application uses vanilla JavaScript, HTML, and CSS without any dependencies.
 
 - Pre-compiled regex patterns
 - Efficient DOM interactions with element caching
-- Debounced event handlers
-- Mobile-optimized touch interactions
-- Reduced memory usage with efficient data structures
+- Fast localStorage-based history management
+- Optimized data structures for photographic elements
+- Mobile-optimized responsive interface
 
 ## License
 
